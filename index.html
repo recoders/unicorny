@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>лучший проект этого хакатона</title>
+	<title>CSGO менеджер турниров</title>
     <script src="//code.jquery.com/jquery-latest.js"></script> <!-- JQuery -->
     <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'> <!-- Roboto -->
     <style>
@@ -38,8 +38,13 @@
     </style>
 	<div id="phrase-cont">
     	<div id="phrase-beginning">
-    		Не занимайте место, мы ещё вернемся!<br/>
-		М и В
+    	    <small>CSGO портал турниров</small>
+    	    <h3>Оставь почту, чтобы принять участие в бета-тесте</h3>
+    	    <form action="//formspree.io/info@re-coders.com" method="POST" onsubmit="if ($('#_replyto').val() == '') { return false; } else { return document.forms[0].submit(); }">
+            	<input type="email" id="_replyto" name="_replyto" class="field" placeholder="email" />
+            	<input type="hidden" name="_next" value="//unicorny.ru/#thanks" />
+            	<input type="hidden" name="_subject" value="Unicorny Beta" />
+            </form>
         </div>
     </div>
         <!-- end -->
